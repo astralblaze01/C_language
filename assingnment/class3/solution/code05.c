@@ -2,29 +2,28 @@
 
 int main()
 {
-    int cnt = 0, i, j, n;
+
+    int n;
+    int cnt = 0;
     printf("Enter number: ");
     scanf("%d", &n);
 
-    for (i = 1; i <= n; i++)
+    for (int i = 2; i <= n; i++)
     {
-        for (j = 1; j <= i; j++)
+        cnt = 0;
+        for (int j = 2; j < i; j++)
         {
-            if (cnt > 2)
-            {
-                break;
-            }
             if (i % j == 0)
             {
-                cnt += 1;
+                cnt++;
+                break;
             }
         }
-        if (cnt == 2)
+        if (cnt == 0)
         {
             printf("%d ", i);
         }
-        cnt = 0;
     }
 
-    printf("\n");
+    return 0;
 }
