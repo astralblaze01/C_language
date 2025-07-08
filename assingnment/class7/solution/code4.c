@@ -26,8 +26,9 @@ int main()
         ;
     minMax(data, size, &min, &max);
     printf("%d %d", max, min);
-    
+
     fclose(f);
+    free(data);
     return 0;
 }
 
