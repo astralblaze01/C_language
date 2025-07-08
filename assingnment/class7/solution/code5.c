@@ -1,4 +1,3 @@
-// 11장 예제 2
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -42,7 +41,7 @@ int main()
     double var = variance(arr, SIZE, average);
     double std = stddev(var);
 
-    printf("aver : %0.2lf\n std : %0.2lf", average, std);
+    printf("평균 : %0.2lf\n표준편차: %0.2lf", average, std);
     return 0;
 }
 
