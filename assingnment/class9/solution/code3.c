@@ -10,10 +10,8 @@ int main()
     {
         printf("문자열 입력(종료 q) : ");
         fgets(str, 80, stdin);
-        // if (str[strlen(str) - 1] == '\n')
-        // {
-        //     str[strlen(str) - 1] = '\0';
-        // }
+   
+
         if (strcmp(str, "q") == 0)
         {
             break;
@@ -27,6 +25,7 @@ int main()
 void reverse(char *arr)
 {
     int size = strlen(arr) - 1;
+    // 이럼 개행문자 전까지 출력임
     for (int i = size - 1; i >= 0; i--)
     {
         printf("%c", arr[i]);
