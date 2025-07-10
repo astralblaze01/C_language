@@ -1,4 +1,4 @@
-// 11장 예제 2
+// 11장 예제 21 page
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -11,7 +11,7 @@ int main()
         printf("file is not open");
         exit(1);
     }
-
+    
     // srand의 s는 seed값으로 seed값에 따라 rand값이 바뀌게 됨
     // 따라서 초기화 안해주면 값 계속 같게 나옴
     srand((unsigned)time(NULL));

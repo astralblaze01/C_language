@@ -1,4 +1,4 @@
-// 11장 예제 3
+// 11장 예제 22 page
 #include <stdio.h>
 #include <stdlib.h>
 
