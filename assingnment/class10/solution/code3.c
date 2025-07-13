@@ -53,8 +53,8 @@ int scanFile(FILE *f, Employee *e)
         fgets(e[i].home, sizeof(e[i].home), f);
         e[i].home[strcspn(e[i].home, "\n\r")] = '\0';
 
-        fscanf(f, "%d\n", &e[i].salary);
-        fscanf(f, "%lf\n", &e[i].incen);
+        fscanf(f, "%d", &e[i].salary);
+        fscanf(f, "%lf", &e[i].incen);
 
         result = e[i].salary * (e[i].incen + 12);
         e[i].result = result;

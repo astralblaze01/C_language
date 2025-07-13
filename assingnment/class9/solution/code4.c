@@ -25,7 +25,6 @@ int main()
     }
 
     sort(strings, ROW);
-
     output(strings, ROW);
     fclose(file);
     return 0;

@@ -11,7 +11,7 @@ int main()
 
     while (words != NULL)
     {
-        if (words[0] >= 97 && words[0] <= 122)
+        if (words[0] >= 'a' && words[0] <= 'z')
         {
             printf("%c", words[0] - 32);
         }

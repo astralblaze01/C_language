@@ -12,6 +12,7 @@ typedef struct
     double slope;
     double yintercept;
 } Line;
+
 Line calcuate(Point a, Point b);
 
 int main()

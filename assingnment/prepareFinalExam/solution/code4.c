@@ -9,7 +9,7 @@ int main()
 {
     char string[STRING_MAX_SIZE];
     char oriWord[WORD_MAX_SIZE], chWord[WORD_MAX_SIZE];
-    
+
     fgets(string, sizeof(string), stdin);
     scanf("%s %s", oriWord, chWord);
 
@@ -47,7 +47,6 @@ void changeWord(char *str, char *ori, char *chan)
             temp[i] = chan[i];
         }
         
-
         temp += chanLen;
         strcpy(temp, tempCopy);
     }
