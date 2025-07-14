@@ -29,6 +29,7 @@ int main()
 
     printArray(arr1, size, "arr1");
     printArray(arr2, size, "arr2");
+    fclose(file);
     return 0;
 }
 
