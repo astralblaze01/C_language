@@ -14,11 +14,12 @@ int main()
     files[0] = fopen(fileName1, "r");
     checkFile(files[0], fileName1);
     print(files[0], fileName1);
+    fclose(files[0]);
 
     files[1] = fopen(fileName2, "r");
     checkFile(files[1], fileName2);
     print(files[1], fileName2);
-
+    fclose(files[1]);
     return 0;
 }
 

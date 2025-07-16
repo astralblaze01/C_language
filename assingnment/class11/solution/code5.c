@@ -45,6 +45,7 @@ int main()
     printFoods(arr, size);
 
     free(arr);
+    fclose(file);
     return 0;
 }
 

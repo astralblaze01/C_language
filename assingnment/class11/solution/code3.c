@@ -29,7 +29,7 @@ int main()
     printf("average = %0.2lf", averageArray(sum, num));
 
     free(arr);
-
+    fclose(file);
     return 0;
 }
 
