@@ -1,0 +1,11 @@
+10
+3456 Charlie 88
+7890 Grace 92
+6789 Frank 85
+5678 Eve 91
+8901 Heidi 87
+9012 Ivan 88
+1003 Judy 91
+2345 Alice 88
+4567 David 85
+1234 Bob 92
