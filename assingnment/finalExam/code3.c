@@ -130,7 +130,7 @@ void isInArr(Student *arr, int size)
 
 int search(Student *s, int n, char *name)
 {
-    int cnt = 0;
+    int cnt = -1;
 
     for (int i = 0; i < n; i++)
     {
@@ -139,7 +139,6 @@ int search(Student *s, int n, char *name)
             cnt = i;
             break;
         }
-        cnt = -1;
     }
 
     return cnt;
